@@ -61,7 +61,9 @@ public class News implements INews{
         System.out.println("Content"+getContent());
         System.out.println("AverageRate"+getAverageRate());
     }
+
     int[] RateList= {10, 30, 11};
+
 
     public void Calculate(){
         AverageRate=(RateList[0]+RateList[1]+RateList[2])/3;
