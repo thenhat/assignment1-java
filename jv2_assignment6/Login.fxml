@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:controller="jv2_assignment6.Login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtUser" layoutX="117.0" layoutY="52.0" prefHeight="38.0" prefWidth="339.0" promptText="User Name" />
+      <PasswordField fx:id="txtPass" layoutX="117.0" layoutY="168.0" prefHeight="38.0" prefWidth="339.0" promptText="Password" />
+      <Button onAction="#Login" layoutX="229.0" layoutY="281.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="Login" />
+      <Hyperlink onAction="#goToHome" layoutX="14.0" layoutY="23.0" text="&lt;&lt; Home" />
+      <Hyperlink onAction="#goToRegister" layoutX="492.0" layoutY="340.0" text="Register &gt;&gt;" />
+   </children>
+</Pane>
